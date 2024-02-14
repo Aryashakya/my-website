@@ -30,12 +30,6 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
             A final year student currently pursuing Computer Engineering degree
             at Kathmandu University, Dhulikhel.
-            <br />
-            <br />I have always been curious and fascinated by technology.
-            During the learning process, I have learned about different
-            programming languages and technologies like Python, Flutter, C++,
-            JavaScript, etc. by working on related projects. Currently, I am
-            exploring Machine Learning and Deep Learning as well.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
