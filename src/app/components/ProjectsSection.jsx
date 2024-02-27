@@ -20,7 +20,7 @@ const projectsData = [
     description:
       " A cross-platform mobile application built using Flutter and Firebase that provides a medium to learn and share information related to cultural heritage.",
     image: "",
-    tag: ["All","Mobile"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -30,7 +30,7 @@ const projectsData = [
     description:
       "A food delivery website built using MongoDB, Expressjs, and NodeJS for viewing and ordering food, along with an admin panel to manage orders.",
     image: "/images/projects/laptey.png",
-    tag: ["All","Web"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -50,7 +50,7 @@ const projectsData = [
     description:
       "A mobile application built using Flutter that can be used to calculate taxes such as income taxes and vehicle taxes, and interest payments (EMI).",
     image: "",
-    tag: ["All","Mobile"],
+    tag: ["All", "Mobile"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -78,7 +78,10 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2
+        className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12"
+        id="projects"
+      >
         My Projects
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
