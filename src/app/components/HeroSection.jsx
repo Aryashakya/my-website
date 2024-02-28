@@ -32,12 +32,21 @@ const HeroSection = () => {
             at Kathmandu University, Dhulikhel.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
-              Contact Me
-            </button>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
-              Download CV
-            </button>
+            <a href="mailto:ryaashakya@gmail.com">
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
+                Contact Me
+              </button>
+            </a>
+            <a
+              href="AryaShakyaResume.pdf"
+              download="AryaShakyaResume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
 
