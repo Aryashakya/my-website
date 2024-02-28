@@ -11,8 +11,7 @@ const projectsData = [
       "A system for recognizing handwritten as well as typed texts in Nepal Lipi and converting physical documents into a digital version using the CRNN CTC architecture",
     image: "/images/projects/aakhah.png",
     tag: ["All"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://aakhah.vercel.app/demo",
   },
   {
     id: 2,
@@ -21,8 +20,7 @@ const projectsData = [
       " A cross-platform mobile application built using Flutter and Firebase that provides a medium to learn and share information related to cultural heritage.",
     image: "",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "#projects",
   },
   {
     id: 3,
@@ -31,8 +29,7 @@ const projectsData = [
       "A food delivery website built using MongoDB, Expressjs, and NodeJS for viewing and ordering food, along with an admin panel to manage orders.",
     image: "/images/projects/laptey.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ashutoshbr/Laptey",
   },
   {
     id: 4,
@@ -41,8 +38,7 @@ const projectsData = [
       "A transaction management system built using Qt for a graphical user interface and SQLite as a database that allows users to store and view their transactions.",
     image: "/images/projects/eledger.png",
     tag: ["All"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/ashutoshbr/e-Ledger",
   },
   {
     id: 5,
@@ -51,8 +47,7 @@ const projectsData = [
       "A mobile application built using Flutter that can be used to calculate taxes such as income taxes and vehicle taxes, and interest payments (EMI).",
     image: "",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/SarinSthapit/Financial-Calculator",
   },
   {
     id: 6,
@@ -61,8 +56,7 @@ const projectsData = [
       "An abstractive text summarization system built using the encoder-decoder Transformer model to generate a concise summary of lengthy texts.",
     image: "",
     tag: ["All"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/SarinSthapit/Text-Summarization-System",
   },
 ];
 
@@ -109,7 +103,6 @@ const ProjectsSection = () => {
             description={project.description}
             imgUrl={project.image}
             gitUrl={project.gitUrl}
-            previewUrl={project.previewUrl}
           />
         ))}
       </div>
